@@ -1,0 +1,46 @@
+.plugin-triangle {
+    position: fixed;
+    background-color: blue;
+    bottom: -75px;
+    left: -75px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.plugin-modal__mask {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+}
+
+.plugin-modal__wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1001;
+}
+
+.plugin-modal__inner {
+    margin: auto 0 auto;
+    max-width: 100%;
+    width: 500px;
+    padding: 16px;
+}
+
+.plugin-modal__content {
+    background: white;
+    padding: 16px;
+}

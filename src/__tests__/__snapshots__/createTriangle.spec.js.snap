@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createTriangle() matches snapshot 1`] = `
+Object {
+  "classList": Object {
+    "add": [MockFunction] {
+      "calls": Array [
+        Array [
+          "plugin-triangle",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+  },
+  "onclick": [Function],
+}
+`;
